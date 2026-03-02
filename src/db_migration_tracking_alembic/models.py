@@ -16,6 +16,8 @@ class User(Base):
     # After migration v5 (unique constraint added)
     email = Column(String, nullable=False, unique=True, index=True)
 
+    phone_number = Column(String, nullable=True)
+
     # Added in migration v2
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
 
