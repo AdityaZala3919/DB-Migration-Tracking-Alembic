@@ -1,0 +1,7 @@
+tests
+/alembic/__pycache__
+/src/db_migration_tracking_alembic/__pycache__
+/alembic/README
+/alembic/versions/__pycache__
+.env
+commands.md
